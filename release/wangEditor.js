@@ -683,7 +683,7 @@ var config = {
     // 自定义上传图片超时时间 ms
     uploadImgTimeout: 10000,
 
-    // 上传图片 hook 
+    // 上传图片 hook
     uploadImgHooks: {
         // customInsert: function (insertLinkImg, result, editor) {
         //     console.log('customInsert')
@@ -4547,7 +4547,7 @@ Editor.prototype = {
         }
 
         this.selection.createRangeByElem($last, false, true);
-        this.selection.restoreSelection();
+        // this.selection.restoreSelection();
     },
 
     // 绑定事件
