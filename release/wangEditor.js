@@ -4547,6 +4547,7 @@ Editor.prototype = {
         }
 
         this.selection.createRangeByElem($last, false, true);
+        // 光标无法移动先注释
         // this.selection.restoreSelection();
     },
 
